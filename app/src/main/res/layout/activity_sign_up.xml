@@ -30,16 +30,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Необходима авторизация"
+            android:text="Регистрация"
             android:textSize="32sp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Подтвердите свою личность чтобы получить полный доступ к приложению."
-            />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,6 +42,30 @@
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:orientation="vertical">
+            <EditText
+                android:id="@+id/insertEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Эл.почта"
+                android:layout_marginVertical="5dp"
+                android:inputType="textEmailAddress"
+                />
+            <EditText
+                android:id="@+id/insertPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Пароль"
+                android:layout_marginVertical="5dp"
+                android:inputType="textPassword"
+                />
+            <EditText
+                android:id="@+id/checkPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Повторите пароль"
+                android:layout_marginVertical="5dp"
+                android:inputType="textPassword"
+                />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -55,11 +74,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Нужна тех.поддержка?"
+                    android:text="Нужна помощь?"
                     android:linksClickable="true"
                     android:textColor="@color/accent_color"
-                    android:layout_alignParentRight="true"
-                    />
+                    android:layout_alignParentRight="true" /> <!-- android:onClick="passToTelegramBot" -->
             </RelativeLayout>
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/image_button"
@@ -75,15 +93,7 @@
                 android:textAllCaps="false"
                 android:textSize="12dp"
                 android:textColor="@color/white"
-                android:onClick="passToFaceCheckPage"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/simple_button_background"
-                android:enabled="false"
-                android:text="Позже"
-                android:textAllCaps="false"
-                android:textSize="12dp" />
+                android:onClick="passToAuthPage"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

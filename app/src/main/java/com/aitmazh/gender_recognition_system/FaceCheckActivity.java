@@ -2,7 +2,6 @@ package com.aitmazh.gender_recognition_system;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -11,6 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+/**
+ * @author Zhasmina Aitmagambetova
+ */
 public class FaceCheckActivity extends AppCompatActivity {
     private ImageView imageView;
     private Button button;

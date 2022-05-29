@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Пожалуйста, посмотрите в камеру"
+                android:text="Подтвердите свою личность"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Убедитесь, что профиль вашего лица виден полностью. Пожалуйста, снимите очки и иные аксессуары."
+                android:text="Пожалуйста, перед тем как делать снимок убедитесь, что ваше лицо видно полностью и не закрыто очками и иными аксессуарами."
                 />
 
             <ImageView

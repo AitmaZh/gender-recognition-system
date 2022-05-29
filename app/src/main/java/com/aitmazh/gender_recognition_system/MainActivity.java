@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * @author Zhasmina Aitmagambetova
+ */
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void passToFaceCheckPage(View view) {
         Intent i = new Intent(this, FaceCheckActivity.class);
+        startActivity(i);
+    }
+    public void passToAuthPage(View view) {
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422119597586",
+    "project_id": "asterisks-db",
+    "storage_bucket": "asterisks-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422119597586:android:36095b9002d4cb72fc5acb",
+        "android_client_info": {
+          "package_name": "com.asterisks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422119597586-nl88ht394tjfhaaiguc5jodpf5ffphdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf75yOjBla9Lm5OPepK6ytxlnp-vh4n1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422119597586-nl88ht394tjfhaaiguc5jodpf5ffphdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
